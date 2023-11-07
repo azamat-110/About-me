@@ -1,0 +1,261 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.header__nav {
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__logo {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+
+}
+
+.nav__list-link {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 84px;
+    transition: .5s;
+}
+
+.header__content {
+    height: 850px;
+    background-image: url(../images/header-bg.png
+);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__content-title {
+    color: #000;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header__content-btn {
+    color: #000;
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #FFF;
+    padding: 10px 24px;
+    border-radius: 10px;
+    margin-top: 145px;
+}
+
+/*  */
+
+.about__me {
+    padding-top: 30px;
+    padding-bottom: 112px;
+    background: #0E1C25;
+}
+
+.about__me-title {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.about__me-content {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.info__title {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.info__descr {
+    color: #FFF;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 64px;
+    transition: 0;
+}
+
+.about__me-content-info {
+    max-width: 466px;
+}
+
+.portfolio {
+    background: #5C6B81;
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+
+/* .portfolio-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 285px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #B12B06;
+    flex-direction: column;
+}
+
+.portfolio__card-title{
+    color: #FFF;
+font-family: Arial;
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+}
+
+.portfolio__descr{
+    color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 14px;
+font-weight: 700;
+margin: 20px;
+}
+
+.portfolio__card-btn{
+    color: #000;
+font-family: Arial;
+font-size: 20px;
+font-weight: 700;
+ border-radius: 10px;
+background: #FFF;;
+padding: 8px 24px;
+
+} */
+
+
+
+.porfolio__content {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 126px;
+    margin-top: 62px;
+}
+
+.portfolio__content-card {
+    padding: 15px 15px 27px 15px;
+    border-radius: 10px;
+    background: #B12B06;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-card__title {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.content-card__descr {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 264px;
+    margin-bottom: 27px;
+}
+
+.content-card__btn {
+    color: #000;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: white;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+
+.footer{
+    background: #000;
+    padding-top: 47px;
+    padding-bottom: 62px;
+}
+.footer__content {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 400;
+   
+}

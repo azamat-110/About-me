@@ -1,0 +1,141 @@
+@media (max-width:1199.99px) {
+    .about__me-content img {
+        /* width: 100%;
+        height: 100%; */
+        text-align: center;
+    }
+
+    .about__me-content-info {
+        margin: 50px;
+    }
+
+    .info__title {
+        text-align: center;
+    }
+}
+
+/*  -------------------------------------  */
+@media (max-width:991.99px) {
+    .nav__list-link {
+        margin-left: 54px;
+    }
+
+    .header__content {
+        max-height: 550px;
+    }
+
+    .about__me-content {
+        flex-direction: column;
+    }
+
+    .info__descr {
+        max-width: 500px;
+        margin-top: 32px;
+    }
+
+    .info__title {
+        text-align: center;
+        margin-top: 10px;
+        max-width: 500px;
+        font-size: 25px;
+    }
+}
+
+/*  -------------------------------------  */
+@media (max-width:767.99px) {
+    .about__me{
+        padding-top: 15px;
+        padding-bottom: 60px;
+    }
+    .nav__list-link {
+        font-size: 18px;
+    }
+
+    .nav__logo {
+        font-size: 24px;
+    }
+
+    .header__content-title {
+        margin: 5px;
+        font-size: 24px;
+    }
+
+    .header__content-btn {
+        padding: 7px 18px;
+        font-size: 18px;
+        margin-top: 80px;
+    }
+
+    .info__descr {
+        max-width: 400px;
+
+        margin-top: 32px;
+    }
+
+    .info__title {
+        text-align: center;
+        margin-top: 10px;
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .about__me-content img {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .about__me-title {
+        font-size: 25px;
+    }
+
+}
+
+/*  -------------------------------------  */
+@media (max-width:575.99px) {
+    .about__me-content img {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .about__me{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .info__descr {
+        max-width: 400px;
+        font-size: 14px;
+        margin-top: 32px;
+    }
+
+    .header__nav {
+        position: relative;
+    }
+
+    .nav__list-link {
+        margin-left: 0;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        background-color: black;
+        top: 100%;
+        padding: 15px;
+        left: -100%;
+        gap: 10px;
+    }
+
+    .nav__content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav__content:hover .nav__list {
+        left: 0;
+    }
+
+
+}
